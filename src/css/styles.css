@@ -19,6 +19,9 @@
     height: 670px;
     float: left;
 }
+#nav img{
+    width: 100%;
+}
 #nav ul{
     height: 500px;
 }
