@@ -147,3 +147,24 @@ legend{
     font-weight: bold;
     padding: 20px 0;
 }
+input, select{
+    padding-left: 20px;
+    background-color: #ececec;
+    border-style: none;
+    height: 30px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+}
+select{
+    width: 100%;
+}
+input[type=submit]{
+    color: white;
+    background-color: #225bad;
+    width: auto;
+    padding-left: 27px;
+    background-image: url("/src/img/Button-2.jpg");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 17px;
+}
