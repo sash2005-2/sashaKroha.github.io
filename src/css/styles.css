@@ -168,3 +168,8 @@ input[type=submit]{
     background-position: 5px;
     background-size: 17px;
 }
+
+/*Дополнительные страницы*/
+.big_pic img, .small_pic img{
+    width: 100%;
+}
