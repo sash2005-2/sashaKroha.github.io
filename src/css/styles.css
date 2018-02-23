@@ -1,0 +1,36 @@
+/*Сетка*/
+#wrapper{
+    width: 1100px;
+    height: auto;
+}
+#header {
+    width: 100%;
+    height: auto;
+}
+#header img{
+    width: 100%;
+}
+#content{
+    width: 80%;
+    height: auto;
+}
+#nav{
+    width: 200px;
+    height: 670px;
+    float: left;
+}
+#nav ul{
+    height: 500px;
+}
+#map{
+    width: 200px;
+    height: 225px;
+}
+#map img{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    float: right;
+    width: calc(100% - 200px);
+}
