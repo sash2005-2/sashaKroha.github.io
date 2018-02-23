@@ -52,7 +52,7 @@ body{
     margin: 0 10%;
     clear: both;
 }
-#nav ul, #main_title, .small_card, .big_card{
+#nav ul, #footer, #main_title, .small_card, .big_card{
     background-color: white;
 }
 
@@ -84,4 +84,66 @@ table a{
     width: auto;
     background-image: url("/src/img/Button.jpg");
     background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 17px 17px;
+}
+
+/*Текст*/
+
+*{
+    font-family: 'Trebuchet MS';
+}
+h1{padding-left: 20px}
+h2{margim-top:0;}
+small{
+    color: #227bad;
+    font-weight: bold;
+    font-size: 60%;
+}
+#footer{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    height: 100px;
+    overflow: hidden;
+}
+
+/*Таблица*/
+table{
+    border-spacing: 20px;
+}
+.small_card{
+    width: 200px;
+    border-bottom: 5px solid #227bad;
+    padding: 0;
+    margin: 0;
+}
+.small_card img{
+    height: 160px;
+    width: 205px;
+}
+
+/*Формы*/
+.big_card{
+    padding: 0; margin: 0;
+}
+.big_card img{
+    width: 300px;
+    float: left;
+}
+form{
+    width: calc(100% - 300px);
+    float: right;
+}
+
+fieldset{
+    border: none;
+    padding: 0 20px;
+}
+legend{
+    font-size:16px;
+    font-weight: bold;
+    padding: 20px 0;
 }
